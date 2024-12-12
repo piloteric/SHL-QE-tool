@@ -1,14 +1,16 @@
 this one require venv for pytorch
 
 ## build venv
-`` py -m venv testenv ``
+`` python -m venv (env name) ``
 
 ## activate venv in cmd line
-`` .\venvpytorch_env\Scripts\Activate ``
+`` .\(env)\Scripts\Activate ``
 
 ## install library package
-- pytorch CPU
-`` pip install torch torchvision torchaudio ``
+`` pip install requirements.txt ``
 
-- easyOCR
-`` pip install easyocr ``
+## deactivate in cmd line
+`` (env) deactivate ``
+
+## clean venv
+rm -r (env)
